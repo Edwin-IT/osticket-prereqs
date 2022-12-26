@@ -37,8 +37,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Part 1</h2>
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/QsxiXKS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/3GLDdGC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Step 1: Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs. A resource group and a new Virtual Network (Vnet) will be created in the process.
@@ -48,41 +48,42 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Part 2</h2>
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/CKATGT0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/qXz2Uoc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Step 1: In VM1 install and enable IIS.
  
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/JuEPVgl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-- Step 2: After installing, Add MySQL 5.5, then add all simple versions of x86 PHP until 7.3. Make sure PHP Version 7.3.8, PHP Manager 1.5.0 for IIS10, and Microsof Visual C++ 2009 are installed.
+- Step 2: After installing, Add MySQL 5.5, then add all simple versions of x86 PHP until 7.3. Make sure PHP Version 7.3.8, PHP Manager 1.5.0 for IIS 10, and Microsof Visual C++ 2009 are installed.
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/gM55uPG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Step 3: After installing osTicket, extract and copy the “upload” folder into c:\inetpub\wwwroot, then rename it osTicket.
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/2is8vWR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/N8koGvT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ZgCXihe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Step 4: Go to sites,  click Default, then osTicket and then click “Browse *:80”.  Go back to osTicket and click PHP Manager. Enable php_imap.dll, php_intl.dll, and php_opcache.dll.
 
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/h9AsqoR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/ZbYReNT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Step 5: Change C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to: C:\inetpub\wwwroot\osTicket\include\ost-config.php. Click Disable inheritance, then Remove All, then New Permissions, then Everyone, then All. Click continue on the website.
  
 <p>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tk2mZLg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/MZEW23o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 - Step 6: After installing, Delete C:\inetpub\wwwroot\osTicket\setup. Then set Permissions to “Read” only in C:\inetpub\wwwroot\osTicket\include\ost-config.php.
